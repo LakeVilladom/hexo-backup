@@ -5,7 +5,7 @@ import os
 import time
 from optparse import OptionParser
 
-blogdir="./"
+blogdir="/home/hexo/blog/"
 srcdir=blogdir+"source/_posts/"
 outdir=blogdir+"source/assets/backup/"
 linkdir=blogdir+"source/link/"
@@ -13,7 +13,7 @@ pnglink="/assets/backup/"
 splitstr="\n\n\n\nsstask\n\n\n\n"
 
 rsrc=outdir
-rdst="./myblog/"
+rdst="/home/hexo/blog/myblog/
 
 def genfile(fn):
     print "genfile %s" % (fn)
